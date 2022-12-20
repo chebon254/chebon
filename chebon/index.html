@@ -9,9 +9,115 @@
     <!-- == Style Sheet == -->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- == Fonts == -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+
+    <!-- == Icons == -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" crossorigin="anonymous" />
+
 
 </head>
 <body>
-    <h1>Kibet</h1>
+      <!-- == HEADER == -->
+        <header class="header-scroll">
+            <nav id="nav-bar">
+                <div class="nav-container container">
+                    <div class="logo">
+                        <a href="index.html" class="logo">Chebon.k<span>Dev</span></a>
+                    </div>
+                    <div class="links" id="links">
+                        <div class="cancel">
+                            <span class="cancel-btn"><i class="fas fa-times"></i></span>
+                        </div>
+                        <a class="active-link" href="index.html">Home</a>
+                        <a href="team.html">Team</a>
+                        <a href="about.html">About</a>
+                        <a href="blog.html">Blog</a>
+                        <a href="#contact-sect">Contact</a>
+                    </div>
+                    <div class="menu-bar">
+                        <span class="menu-btn"><i class="fas fa-bars"></i></span>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="banner">
+
+            </section>
+            <section class="about-sect" id="about-sect">
+                <div class="about-container container">
+                    <div class="about-headline">
+                        <h1 class="mini-head">About Me</h1>
+                        <span class="back-text">
+                            <h1 class="huge-head">About</h1>
+                        </span>
+                        <p>Any method used to contact me will get a response as soon as I can.</p>
+                    </div>
+                    <div class="about-content">
+                       <div class="about-text">
+                            <span>Personal Details</span>
+                            <div class="personal-list">
+                                <span><i class="fa-solid fa-user"></i> Name: Chebon Kibet Kelvin</span><br><br>
+                                <span><i class="fa-regular fa-calendar"></i> D.o.B: December, 2<sup>nd</sup> 1998</span><br><br>
+                                <span><i class="fa-solid fa-location-crosshairs"></i> Country: Kenya</span><br><br>
+                            </div>
+                            <span>My Interest</span>
+                            <div class="interest-list">
+                                <span><i class="fa-solid fa-music"></i> Music</span>
+                                <span><i class="fa-solid fa-road"></i> Travel</span>
+                                <span><i class="fa-solid fa-flag-checkered"></i> GoKarting</span>
+                            </div>
+                       </div>
+                       <div class="about-image">
+                            <img src="css/img/chebon profile.png" alt="">
+                       </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact" id="contact-sect">
+                <div class="contact-container container">
+                    <div class="contact-headline">
+                        <h1 class="mini-head">Contact Me</h1>
+                        <span class="back-text">
+                            <h1 class="huge-head">Contact</h1>
+                        </span>
+                        <p>Any method used to contact me will get a response as soon as I can.</p>
+                    </div>
+                    <div class="contact-content">
+                        <div class="contact-card">
+                            <span class="contact-icon"><i class="fa-solid fa-location-dot"></i></span><br>
+                            <span>Address</span> <br><br>
+                            <span>Nairobi, Kenya</span>
+                        </div>
+                        <div class="contact-card">
+                            <span class="contact-icon"><i class="fa-solid fa-phone"></i></span><br>
+                            <span>Phone</span> <br><br>
+                            <span>+254-715-925-156</span>
+                        </div>
+                        <div class="contact-card">
+                            <span class="contact-icon"><i class="fa-solid fa-envelope"></i></span><br>
+                            <span>Email</span> <br><br>
+                            <span>kelvinchebon90@gmail.com</span>
+                        </div>
+                        <div class="contact-card">
+                            <span class="contact-icon"><i class="fa-brands fa-whatsapp"></i></span><br>
+                            <span>WhatsApp</span><br><br>
+                            <span>+254-715-925-156</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="footer container">
+                <p>Chebon Kibet 2023 <i class="fa-solid fa-heart"></i></p>
+            </div>
+        </footer>
+        <!-- == Scripts == -->
+        <script src="js/script.js"></script>
 </body>
 </html>
