@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chebon.k</title>
 
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-config" content="favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
     <!-- == Style Sheet == -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -31,10 +41,10 @@
                         <div class="cancel">
                             <span class="cancel-btn"><i class="fas fa-times"></i></span>
                         </div>
-                        <a class="active-link" href="index.html">Home</a>
-                        <a href="team.html">Team</a>
-                        <a href="about.html">About</a>
-                        <a href="blog.html">Blog</a>
+                        <a class="active-link" href="#banner-sect">Home</a>
+                        <a href="#skills-sect">Skills</a>
+                        <a href="#education-sect">Resume</a>
+                        <a href="#portfolio-sect">Portfolio</a>
                         <a href="#contact-sect">Contact</a>
                     </div>
                     <div class="menu-bar">
@@ -45,70 +55,75 @@
         </header>
 
         <main>
-            <section class="banner">
+            <section class="banner" id="banner-sect">
+                <div class="banner-container container">
+                    <div class="banner-text">
 
-            </section>
-            <section class="about-sect" id="about-sect">
-                <div class="about-container container">
-                    <div class="about-headline">
-                        <h1 class="mini-head">About Me</h1>
-                        <span class="back-text">
-                            <h1 class="huge-head">About</h1>
-                        </span>
-                        <p>Any method used to contact me will get a response as soon as I can.</p>
                     </div>
-                    <div class="about-content">
-                       <div class="about-text">
-                            <span class="about-heading">Personal Details</span><br><br>
-                            <div class="personal-list">
-                                <span><i class="fa-solid fa-user"></i> Name: Chebon Kibet Kelvin</span><br><br>
-                                <span><i class="fa-regular fa-calendar"></i> D.o.B: December, 2<sup>nd</sup> 1998</span><br><br>
-                                <span><i class="fa-solid fa-location-crosshairs"></i> Country: Nairobi, Kenya</span><br><br>
-                            </div>
-                            <br><br>
-                            <span class="about-heading">My Interest</span><br><br>
-                            <div class="interest-list">
-                                <span><i class="fa-solid fa-music"></i> Music</span>
-                                <span><i class="fa-solid fa-road"></i> Travel</span>
-                                <span><i class="fa-solid fa-flag-checkered"></i> GoKarting</span>
-                                <span><i class="fa-solid fa-camera"></i> Photo</span>
-                            </div>
-                       </div>
-                       <div class="about-image">
-                            <img src="css/img/chebon profile.png" alt="">
-                       </div>
+                    <div class="banner-image">
+                        <img src="css/img/anime me.png" alt="" width="300px">
                     </div>
                 </div>
             </section>
-            <section class="contact" id="contact-sect">
-                <div class="contact-container container">
-                    <div class="contact-headline">
+            <section class="skills" id="skills-sect">
+                <div class="skills-container container">
+                    <div class="skills-headline">
                         <h1 class="mini-head">My Skils</h1>
                         <span class="back-text">
                             <h1 class="huge-head">Skills</h1>
                         </span>
-                        <p>Any method used to contact me will get a response as soon as I can.</p>
+                        <p>I'm a multi skilled freelance with skills in the below fields.</p>
                     </div>
-                    <div class="contact-content">
-                        <div class="contact-card">
-                            <span class="contact-icon"><i class="fa-solid fa-location-dot"></i></span><br>
-                            <span>Address</span> <br><br>
-                            <span>Nairobi, Kenya</span>
+                    <div class="skills-content">
+                        <div class="skill-card">
+                            <div class="image card-image-one">
+                                <img src="css/img/manage.png" alt="" width="220px">
+                            </div>
+                            <br><br>
+                            <span>Managerial</span>
                         </div>
-                        <div class="contact-card">
-                            <span class="contact-icon"><i class="fa-solid fa-phone"></i></span><br>
-                            <span>Phone</span> <br><br>
-                            <span>+254-715-925-156</span>
+                        <div class="skill-card">
+                            <div class="image card-image-two">
+                                <img src="css/img/computer.png" alt="" width="220px">
+                            </div>
+                            <br><br>
+                            <span>Software & Web</span>
                         </div>
-                        <div class="contact-card">
-                            <span class="contact-icon"><i class="fa-solid fa-envelope"></i></span><br>
-                            <span>Email</span> <br><br>
-                            <span>kelvinchebon90@gmail.com</span>
+                        <div class="skill-card">
+                            <div class="image card-image-three">
+                                <img src="css/img/market.png" alt="" width="160px">
+                            </div>
+                            <br><br>
+                            <span>Digital Marketing</span>
                         </div>
-                        <div class="contact-card">
-                            <span class="contact-icon"><i class="fa-brands fa-whatsapp"></i></span><br>
-                            <span>WhatsApp</span><br><br>
-                            <span>+254-715-925-156</span>
+                    </div>
+                </div>
+            </section>
+            <section class="service" id="service-sect">
+                <div class="service-container container">
+                    <div class="service-headline">
+                        <h1 class="mini-head">So I guess it’s time to pop the question!</h1>
+                        <span class="back-text">
+                            <h1 class="huge-head">What Can I Do?</h1>
+                        </span>
+                    </div>
+                    <div class="service-content">
+                        
+                    </div>
+                </div>
+            </section>
+            <section class="education" id="education-sect">
+                <div class="education-container container">
+                    <div class="education-headline">
+                        <h1 class="mini-head">Experience Journey</h1>
+                        <span class="back-text">
+                            <h1 class="huge-head">Education</h1>
+                        </span>
+                        <p>I'm a multi skilled freelance with skills in the below fields.</p>
+                    </div>
+                    <div class="education-content">
+                        <div class="education-card">
+                            <span>Managerial</span>
                         </div>
                     </div>
                 </div>
@@ -127,40 +142,134 @@
                     </div>
                 </div>
             </section>
-            <section class="contact" id="contact-sect">
-                <div class="contact-container container">
-                    <div class="contact-headline">
+            <section class="portfolio" id="portfolio-sect">
+                <div class="portfolio-container container">
+                    <div class="portfolio-headline">
                         <h1 class="mini-head">My Portfolio</h1>
                         <span class="back-text">
                             <h1 class="huge-head">Projects</h1>
                         </span>
-                        <p>Any method used to contact me will get a response as soon as I can.</p>
+                        <p>These are projects I build. Some are missing due to client contract containing <strong>Non-Disclosure Agreement (NDA)</strong></p>
                     </div>
-                    <div class="contact-content">
-                        <div class="contact-card">
-                            <span class="contact-icon"><i class="fa-solid fa-location-dot"></i></span><br>
-                            <span>Address</span> <br><br>
-                            <span>Nairobi, Kenya</span>
+                    <div id="myBtnContainer">
+                        <button class="btn active" onclick="filterSelection('all')"> Show All</button>
+                        <button class="btn" onclick="filterSelection('web-design')"> Web Design</button>
+                        <button class="btn" onclick="filterSelection('web-development')"> Web Development</button>
+                        <button class="btn" onclick="filterSelection('video-market')"> Digital Marketing</button>
+                        <button class="btn" onclick="filterSelection('mobile-developent')"> Mobile Application</button>
+                    </div>
+
+                    <!-- Portfolio Gallery Grid -->
+                    <div class="row">
+                        <div class="column web-development">
+                            <img src="css/img/web developent  ecommerse.png" alt="">
+                            <div class="title">
+                                <h2>SkinCare</h2>
+                                <div class="icon">
+                                    <span>Web Development</span>
+                                </div>
+                                <a href="https://skincare-is-project.web.app" target="_blank" class="explore-projects">Explore</a>
+                            </div>
                         </div>
-                        <div class="contact-card">
-                            <span class="contact-icon"><i class="fa-solid fa-phone"></i></span><br>
-                            <span>Phone</span> <br><br>
-                            <span>+254-715-925-156</span>
+                        <div class="column web-development">
+                            <img src="css/img/oceans web dvp.png" alt="">
+                            <div class="title">
+                                <h2>Oceans</h2>
+                                <div class="icon">
+                                    <span>Web Development</span>
+                                </div>
+                                <a href="https://oceans-9f3e4.web.app" target="_blank" class="explore-projects">Explore</a>
+                            </div>
                         </div>
-                        <div class="contact-card">
-                            <span class="contact-icon"><i class="fa-solid fa-envelope"></i></span><br>
-                            <span>Email</span> <br><br>
-                            <span>kelvinchebon90@gmail.com</span>
+                        <div class="column web-development">
+                            <img src="css/img/agency.png" alt="">
+                            <div class="title">
+                                <h2>Chebon Agency</h2>
+                                <div class="icon">
+                                    <span>Web Development</span>
+                                </div>
+                                <a href="https://agency-dbf50.web.app" target="_blank" class="explore-projects">Explore</a>
+                            </div>
                         </div>
-                        <div class="contact-card">
-                            <span class="contact-icon"><i class="fa-brands fa-whatsapp"></i></span><br>
-                            <span>WhatsApp</span><br><br>
-                            <span>+254-715-925-156</span>
+                        <div class="column web-design">
+                            <img src="css/img/figma design.png" alt="" title="We Do Not Own this Design">
+                            <div class="title">
+                                <h2>HooBank</h2>
+                                <div class="icon">
+                                    <span>Web Design</span>
+                                </div>
+                                <a href="https://www.figma.com/file/bUGIPys15E78w9bs1l4tgS/HooBank" target="_blank" class="explore-projects">Explore</a>
+                            </div>
                         </div>
+                        <div class="column web-design">
+                            <img src="css/img/logo sketch.png" alt="" title="We Do Not Own this Design">
+                            <div class="title">
+                                <h2>Logo Designs</h2>
+                                <div class="icon">
+                                    <span>Web Design</span>
+                                </div>
+                                <a href="https://www.figma.com/file/CUG0zSoAspfH9zQTdDxKw4/Logo-Maker" target="_blank" class="explore-projects">Explore</a>
+                            </div>
+                        </div>
+                        <div class="column web-design">
+                            <img src="css/img/sketch.png" alt="">
+                            <div class="title">
+                                <h2>SkinCare</h2>
+                                <div class="icon">
+                                    <span>Web Design</span>
+                                </div>
+                                <a href="https://www.figma.com/file/YQdhUzK1NdZR2e8yTz9sKh/SkinCare" target="_blank" class="explore-projects">Explore</a>
+                            </div>
+                        </div>
+                        <div class="column video-market">
+                            <img src="css/img/video marketing.png" alt="">
+                            <div class="title">
+                                <h2>BereaCode</h2>
+                                <div class="icon">
+                                    <span>Digital Marketing</span>
+                                </div>
+                                <a href="https://www.youtube.com/watch?v=jjwZCzifJyA" target="_blank" class="explore-projects">Explore</a>
+                            </div>
+                        </div>
+                        <div class="column video-market">
+                            <img src="css/img/PODCAST.png" alt="">
+                            <div class="title">
+                                <h2>PodCast</h2>
+                                <div class="icon">
+                                    <span>Digital Marketing</span>
+                                </div>
+                                <a href="https://www.youtube.com/watch?v=SdwHhpwT-h4" target="_blank" class="explore-projects">Explore</a>
+                            </div>
+                        </div>
+                        <div class="column video-market">
+                            <img src="css/img/Organic.png" alt="">
+                            <div class="title">
+                                <h2>Body Build</h2>
+                                <div class="icon">
+                                    <span>Digital Marketing</span>
+                                </div>
+                                <a href="https://youtu.be/tlm9NNZr3dI" target="_blank" class="explore-projects">Explore</a>
+                            </div>
+                        </div>
+                    <!-- END GRID -->
                     </div>
                 </div>
             </section>
-            <section class="hire-me">
+            <section class="testimonial" id="contact-sect">
+                <div class="testimonial-container container">
+                    <div class="testimonial-headline">
+                        <h1 class="mini-head">Client Testimonies</h1>
+                        <span class="back-text">
+                            <h1 class="huge-head">Testimony</h1>
+                        </span>
+                        <p>What clients say after their experience with my work delivery!</p>
+                    </div>
+                    <div class="testimonial-content">
+                        
+                    </div>
+                </div>
+            </section>
+            <section class="hire-me" id="hire-sect">
                 <div class="hire-me-container container">
                     <div class="hire-success">
                         <div class="success-card">
@@ -195,7 +304,7 @@
                         <div class="hire-me-text">
                             <h1>I'm <span>Available</span> for freelancing</h1>
                             <p>You can work with me through Upwork contract. No matter how complex your project is, I will deliver!</p>
-                            <button>Hire Me</button>
+                            <button onclick="window.open('https://www.upwork.com/freelancers/~018983f102fcff1b87', '_blank'); return false;">Hire Me</button>
                         </div>
                     </div>
                 </div>
@@ -207,7 +316,7 @@
                         <span class="back-text">
                             <h1 class="huge-head">Contact</h1>
                         </span>
-                        <p>Any method used to contact me will get a response as soon as I can.</p>
+                        <p>Any method used to contact me will get a response as soon as possible!</p>
                     </div>
                     <div class="contact-content">
                         <div class="contact-card">
