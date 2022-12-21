@@ -82,3 +82,66 @@ function toggleMute(){
   video.muted = !video.muted;
 }
 /* == Video UnMute == */
+
+
+/* == Maquee == */
+const root = document.documentElement;
+const marqueeElementsDisplayed = getComputedStyle(root).getPropertyValue("--marquee-elements-displayed");
+const marqueeContent = document.querySelector("ul.marquee-content");
+
+root.style.setProperty("--marquee-elements", marqueeContent.children.length);
+
+for(let i=0; i<marqueeElementsDisplayed; i++) {
+  marqueeContent.appendChild(marqueeContent.children[i].cloneNode(true));
+}
+/* == || Maquee == */
+/* == Maquee Two == */
+const marqueeTwoElementsDisplayed = getComputedStyle(root).getPropertyValue("--marquee-two-elements-displayed");
+const marqueeTwoContent = document.querySelector("ul.marquee-two-content");
+
+root.style.setProperty("--marquee-two-elements", marqueeTwoContent.children.length);
+
+for(let i=0; i<marqueeTwoElementsDisplayed; i++) {
+  marqueeTwoContent.appendChild(marqueeTwoContent.children[i].cloneNode(true));
+}
+/* == || Maquee Two == */
+/* == Maquee Three == */
+const marqueeThreeElementsDisplayed = getComputedStyle(root).getPropertyValue("--marquee-three-elements-displayed");
+const marqueeThreeContent = document.querySelector("ul.marquee-three-content");
+
+root.style.setProperty("--marquee-three-elements", marqueeThreeContent.children.length);
+
+for(let i=0; i<marqueeThreeElementsDisplayed; i++) {
+  marqueeThreeContent.appendChild(marqueeThreeContent.children[i].cloneNode(true));
+}
+/* == || Maquee Three == */
+
+/* == Testimonial == */
+var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+        showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+        showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("testimony");
+        var dots = document.getElementsByClassName("test-dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" dot-change", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " dot-change";
+
+        }
+/* == || Testimonial == */
