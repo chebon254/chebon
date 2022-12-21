@@ -191,6 +191,56 @@ nav{
 .banner{
     padding: 60px 0px;
 }
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.banner-text{
+    width: 100%;
+    max-width: 600px;
+    min-width: 280px;
+    height: fit-content;
+    padding: 20px 0px;
+}
+.banner-text p:nth-child(1){
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0px 0px 20px;
+}
+.banner-text p:nth-child(1) span{
+    color: #22b981;
+}
+.banner-text p:nth-child(2){
+    font-size: 64px;
+    color: #00acff;
+    margin: 0px 0px 20px;
+    font-family: GTWalsheimPro-UltraBold;
+}
+.banner-text p:nth-child(3){
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0px 0px 20px;
+}
+.banner-text .btns{
+    padding: 20px 0px 0px;
+}
+.banner-text .btns button:nth-child(1){
+    height: 42px;
+    width: 160px;
+    border: 0px;
+    background-color: #00acff;
+    color: #ffffff;
+}
+.banner-text .btns button:nth-child(2){
+    height: 42px;
+    width: 160px;
+    border: 1px solid #ffffff;
+    background-color: #00000000;
+    color: #ffffff;
+    margin: 10px;
+}
 /* == || Bannner == */
 
 /* == Skill Section == */
