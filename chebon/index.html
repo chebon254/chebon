@@ -74,7 +74,7 @@
             <section class="skills" id="skills-sect">
                 <div class="skills-container container">
                     <div class="skills-headline">
-                        <h1 class="mini-head">My Skils</h1>
+                        <h1 class="mini-head">My Skills</h1>
                         <span class="back-text">
                             <h1 class="huge-head">Skills</h1>
                         </span>
@@ -114,7 +114,20 @@
                         </span>
                     </div>
                     <div class="service-content">
-                        
+                        <div class="marquee-container">
+                            <div class="marquee">
+                                <div class="marquee-left">
+                                  <span>You spin me right round, baby. Like a record, baby.</span>
+                                  <span>You spin me right round, baby. Like a record, baby.</span>
+                                </div>
+                            </div>
+                            <div class="marquee">
+                                <div class="marquee-right">
+                                  <span>You spin me right round, baby. Like a record, baby.</span>
+                                  <span>You spin me right round, baby. Like a record, baby.</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -140,10 +153,10 @@
                         <div class="attention-text">
                             <h1>Self Taught <br> Skills</h1>
                             <p>Skills I have acquired over the years of learning and freelancing.</p>
-                            <button>UnMute</button>
+                            <button onclick="toggleMute()">UnMute</button>
                         </div>
                         <div class="attention-video">
-                            <video src="css/img/video.mp4" autoplay loop muted></video>
+                            <video id="video" src="css/img/video.mp4" autoplay loop muted></video>
                         </div>
                     </div>
                 </div>
@@ -155,7 +168,7 @@
                         <span class="back-text">
                             <h1 class="huge-head">Projects</h1>
                         </span>
-                        <p>These are projects I build. Some are missing due to client contract containing <strong>Non-Disclosure Agreement (NDA)</strong></p>
+                        <p>Some are missing due to client contract containing <strong>Non-Disclosure Agreement (NDA)</strong></p>
                     </div>
                     <div id="myBtnContainer">
                         <button class="btn active" onclick="filterSelection('all')"> Show All</button>

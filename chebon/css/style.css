@@ -34,12 +34,12 @@ html {
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background-color: #0e3155;
+    background-color: #040819;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #4d6e87;
+    background: #00acff;
 }
 /* == || SCROLL BAR == */
 body{
@@ -184,12 +184,13 @@ nav{
 }
 /* == || HEADER == */
 .banner{
-    height: 640px;
+    min-height: 640px;
+    height: fit-content;
     background: radial-gradient(114.1% 60.7% at 50% 45.6%,#002d3e 0%,#040819 100%);
 }
 /* == Bannner == */
 .banner{
-    padding: 60px 0px;
+    padding: 80px 0px 60px;
 }
 .banner-container{
     display: flex;
@@ -250,26 +251,31 @@ nav{
 }
 .skills-headline{
     text-align: center;
-    z-index: 1;
+    z-index: 0;
+    position: relative;
 }
 .skills-headline .mini-head{
     text-align: center;
     font-size: 50px;
     z-index: 4 !important;
     color: #0f0f0f;
+    position: relative;
 }
 .skills-headline .huge-head{
     text-align: center;
     font-size: 94px;
     margin-top: -50px;
-    z-index: -1 !important;
-    color: #484848b2;
+    z-index: 1 !important;
+    color: #f2f2f2;
+    position: relative;
 }
 .skills-headline p{
     color: #484848;
-    letter-spacing: 0.6px;
     padding: 0px 20px;
     margin: -20px;
+    letter-spacing: 0.1px;
+    font-size: 18px;
+    line-height: 2rem;
 }
 .skills-content{
     display: flex;
@@ -343,6 +349,42 @@ nav{
     flex-wrap: wrap;
     padding: 60px 0px;
 }
+.marquee {
+  height: 25px;
+  width: 420px;
+
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee div {
+  display: block;
+  width: 200%;
+  height: 30px;
+
+  position: absolute;
+  overflow: hidden;
+}
+.marquee-left{
+    animation: marquee-left 5s linear infinite;
+}
+.marquee-right{
+    animation: marquee-right 5s linear infinite;
+}
+
+.marquee span {
+  float: left;
+  width: 50%;
+}
+
+@keyframes marquee-left {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+@keyframes marquee-right {
+  0% { right: 0; }
+  100% { right: -100%; }
+}
 /* == || service Section == */
 /* == education Section == */
 
@@ -351,26 +393,33 @@ nav{
 }
 .education-headline{
     text-align: center;
-    z-index: 1;
+    z-index: 0;
+    position: relative;
 }
 .education-headline .mini-head{
     text-align: center;
     font-size: 50px;
     z-index: 4 !important;
     color: #0f0f0f;
+    position: relative;
 }
 .education-headline .huge-head{
     text-align: center;
     font-size: 94px;
     margin-top: -50px;
-    z-index: -1 !important;
-    color: #484848b2;
+    z-index: 1 !important;
+    color: #f2f2f2;
+    position: relative;
 }
 .education-headline p{
     color: #484848;
-    letter-spacing: 0.6px;
     padding: 0px 20px;
     margin: -20px;
+    position: relative;
+    z-index: 4;
+    letter-spacing: 0.1px;
+    font-size: 18px;
+    line-height: 2rem;
 }
 .education-content{
     display: flex;
@@ -393,15 +442,14 @@ nav{
     flex-wrap: wrap;
     padding: 20px 0px;
 }
-.attention-text{
-
-}
 .attention-text h1{
     font-size: 60px;
     color: #ffffff
 }
 .attention-text p{
+    letter-spacing: 0.1px;
     font-size: 18px;
+    line-height: 2rem;
     color: #ffffff;
     padding-right: 10px;
 }
@@ -432,26 +480,33 @@ nav{
 .portfolio-headline{
     text-align: center;
     z-index: 0;
+    padding: 20px 0px 20px;
     margin: 0px 0px 40px;
+    position: relative;
 }
 .portfolio-headline .mini-head{
     text-align: center;
     font-size: 50px;
     z-index: 4 !important;
     color: #0f0f0f;
+    position: relative;
 }
 .portfolio-headline .huge-head{
     text-align: center;
     font-size: 94px;
     margin-top: -50px;
     z-index: 1 !important;
-    color: #484848b2;
+    color: #f2f2f2;
+    position: relative;
 }
 .portfolio-headline p{
     color: #484848;
-    letter-spacing: 0.6px;
-    padding: 0px 20px;
-    margin: -20px;
+    padding: 10px 20px;
+    margin: -10px;
+    position: relative;
+    letter-spacing: 0.1px;
+    font-size: 18px;
+    line-height: 2rem;
 }
 .portfolio-content{
     display: flex;
@@ -622,26 +677,33 @@ nav{
 }
 .testimonial-headline{
     text-align: center;
-    z-index: 1;
+    z-index: 0;
+    position: relative;
 }
 .testimonial-headline .mini-head{
     text-align: center;
     font-size: 50px;
     z-index: 4 !important;
     color: #0f0f0f;
+    position: relative;
 }
 .testimonial-headline .huge-head{
     text-align: center;
     font-size: 94px;
     margin-top: -50px;
-    z-index: -1 !important;
-    color: #484848b2;
+    z-index: 1 !important;
+    color: #f2f2f2;
+    position: relative;
 }
-.education-headline p{
+.testimonial-headline p{
     color: #484848;
-    letter-spacing: 0.6px;
     padding: 0px 20px;
     margin: -20px;
+    position: relative;
+    z-index: 4 !important;
+    letter-spacing: 0.1px;
+    font-size: 18px;
+    line-height: 2rem;
 }
 .testimonial-content{
     display: flex;
@@ -741,26 +803,33 @@ nav{
 }
 .contact-headline{
     text-align: center;
-    z-index: 1;
+    z-index: 0;
+    position: relative;
 }
 .contact-headline .mini-head{
     text-align: center;
     font-size: 50px;
     z-index: 4 !important;
     color: #0f0f0f;
+    position: relative;
 }
 .contact-headline .huge-head{
     text-align: center;
     font-size: 94px;
     margin-top: -50px;
-    z-index: -1 !important;
-    color: #484848b2;
+    z-index: 1 !important;
+    color: #f2f2f2;
+    position: relative;
 }
 .contact-headline p{
     color: #484848;
-    letter-spacing: 0.6px;
     padding: 0px 20px;
     margin: -20px;
+    position: relative;
+    z-index: 4 !important;
+    letter-spacing: 0.1px;
+    font-size: 18px;
+    line-height: 2rem;
 }
 .contact-content{
     display: flex;

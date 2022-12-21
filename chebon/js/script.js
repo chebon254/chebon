@@ -73,3 +73,12 @@ for (var i = 0; i < btns.length; i++) {
   });
 }
 /* == TAB == */
+
+
+/* == Video UnMute == */
+var video = document.getElementById('video');
+
+function toggleMute(){
+  video.muted = !video.muted;
+}
+/* == Video UnMute == */
