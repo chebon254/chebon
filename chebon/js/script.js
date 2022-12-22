@@ -86,6 +86,8 @@ function toggleMute(){
 
 /* == Maquee == */
 const root = document.documentElement;
+const roottwo = document.documentElement;
+const rootthree = document.documentElement;
 const marqueeElementsDisplayed = getComputedStyle(root).getPropertyValue("--marquee-elements-displayed");
 const marqueeContent = document.querySelector("ul.marquee-content");
 
@@ -96,20 +98,20 @@ for(let i=0; i<marqueeElementsDisplayed; i++) {
 }
 /* == || Maquee == */
 /* == Maquee Two == */
-const marqueeTwoElementsDisplayed = getComputedStyle(root).getPropertyValue("--marquee-two-elements-displayed");
+const marqueeTwoElementsDisplayed = getComputedStyle(roottwo).getPropertyValue("--marquee-two-elements-displayed");
 const marqueeTwoContent = document.querySelector("ul.marquee-two-content");
 
-root.style.setProperty("--marquee-two-elements", marqueeTwoContent.children.length);
+roottwo.style.setProperty("--marquee-two-elements", marqueeTwoContent.children.length);
 
 for(let i=0; i<marqueeTwoElementsDisplayed; i++) {
   marqueeTwoContent.appendChild(marqueeTwoContent.children[i].cloneNode(true));
 }
 /* == || Maquee Two == */
 /* == Maquee Three == */
-const marqueeThreeElementsDisplayed = getComputedStyle(root).getPropertyValue("--marquee-three-elements-displayed");
+const marqueeThreeElementsDisplayed = getComputedStyle(rootthree).getPropertyValue("--marquee-three-elements-displayed");
 const marqueeThreeContent = document.querySelector("ul.marquee-three-content");
 
-root.style.setProperty("--marquee-three-elements", marqueeThreeContent.children.length);
+rootthree.style.setProperty("--marquee-three-elements", marqueeThreeContent.children.length);
 
 for(let i=0; i<marqueeThreeElementsDisplayed; i++) {
   marqueeThreeContent.appendChild(marqueeThreeContent.children[i].cloneNode(true));

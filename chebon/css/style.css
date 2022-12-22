@@ -877,6 +877,29 @@ nav{
   .portfolio .column:hover .content-mask{
     display: block;
 }
+.portfolio .column .bottom{
+    width: 100%;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+.portfolio .column .bottom a:nth-child(2){
+    background-color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 2px;
+    width: fit-content;
+    border: 0px;
+    display: block;
+    color: #484848;
+    font-weight: 40;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: .8px;
+    margin: 10px 0px 0px;
+}
+.portfolio .column .bottom a:nth-child(2) i{
+    font-size: 20px !important;
+}
   
   /* Content */
   .portfolio .content {
@@ -935,12 +958,24 @@ nav{
   /* The "show" class is added to the filtered elements */
   
   /* Style the buttons */
+  #myBtnContainer{
+    width: fit-content;
+    margin: auto;
+  }
   .portfolio .btn {
     border: none;
     outline: none;
-    padding: 12px 16px;
+    padding: 6px 10px;
     background-color: white;
     cursor: pointer;
+
+    font-size: 16px;
+    color: #0f0f0f;
+    font-family: GTWalsheimPro-Regular;
+    letter-spacing: 0.1px;
+    text-align: left;
+    margin: 12px 0px 0px;
+    line-height: 2rem;
   }
   
   .portfolio .btn:hover {
