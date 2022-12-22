@@ -883,6 +883,15 @@ nav{
     align-items: center !important;
     justify-content: space-between !important;
 }
+.portfolio .column .bottom a{
+    display: inline-block;
+}
+.portfolio .column .bottom a:nth-child(1){
+    float: left !important;
+}
+.portfolio .column .bottom a:nth-child(2){
+    float: right !important;
+}
 .portfolio .column .bottom a:nth-child(2){
     background-color: #ffffff;
     padding: 5px 10px;
