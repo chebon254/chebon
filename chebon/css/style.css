@@ -441,7 +441,7 @@ nav{
     /* --marquee-two-elements: 12; */ /* defined with JavaScript */
     --marquee-two-elements-displayed: 5;
     --marquee-two-element-width: calc(var(--marquee-two-width) / var(--marquee-two-elements-displayed));
-    --marquee-two-animation-duration: calc(var(--marquee-two-elements) * 1.4s);
+    --marquee-two-animation-duration: calc(var(--marquee-two-elements) * 1.8s);
   }
   
   .marquee-two {
@@ -494,7 +494,7 @@ nav{
     --marquee-three-height: fit-content;
     --marquee-three-elements-displayed: 5;
     --marquee-three-element-width: calc(var(--marquee-three-width) / var(--marquee-three-elements-displayed));
-    --marquee-three-animation-duration: calc(var(--marquee-three-elements) * 1.4s);
+    --marquee-three-animation-duration: calc(var(--marquee-three-elements) * 1.8s);
   }
   
   .marquee-three {
@@ -546,6 +546,51 @@ nav{
     width: 280px;
     background-color: #00acff;
     border-radius: 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+  .marquee-image.meme{
+    background-image: url('img/skills/meme.png');
+  }
+  .marquee-image.promotional{
+    background-image: url('img/skills/promotional\ videos.png');
+  }
+  .marquee-image.back-remove{
+    background-image: url('img/skills/image\ edits.png');
+  }
+  .marquee-image.social-ads{
+    background-image: url('img/skills/social\ posts.png');
+  }
+  .marquee-image.video-edit{
+    background-image: url('img/skills/video\ editing.png');
+  }
+  .marquee-image.thumbnail{
+    background-image: url('img/skills/thumbnail.png');
+  }
+  .marquee-image.sys-software{
+    background-image: url('img/skills/sdlc.png');
+  }
+  .marquee-image.web-dvp{
+    background-image: url('img/skills/sdlc.png');
+  }
+  .marquee-image.mobile-dvp{
+    background-image: url('img/skills/Mobile\ App.png');
+  }
+  .marquee-image.coding{
+    background-image: url('img/skills/tutor.png');
+  }
+  .marquee-image.ecommerse-web{
+    background-image: url('img/skills/ecommerce\ websites.png');
+  }
+  .marquee-image.biz{
+    background-image: url('img/skills/bussiness\ website.png');
+  }
+  .marquee-image.portfolio{
+    background-image: url('img/skills/portfolio\ website.png');
+  }
+  .marquee-image.web-design{
+    background-image: url('img/skills/Web\ Design.png');
   }
   .marquee-card span{
     font-size: 16px;
@@ -555,7 +600,8 @@ nav{
     font-family: GTWalsheimPro-Bold;
   }
   .marquee-card img {
-    width: 80%;
+    width: 280;
+    height: 158px;
   }
   @media (max-width: 600px) {
     :root {
