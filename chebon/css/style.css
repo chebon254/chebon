@@ -49,7 +49,7 @@ html {
 /* == HEADER == */
 header{
     height: fit-content;
-    width: 100%;
+    width: 100% !important;
     padding: 10px 0px;
 
     z-index: 5;
@@ -109,7 +109,7 @@ nav{
     align-items: center;
     font-size: 24px;
     font-family: GTWalsheimPro-Medium, sans-serif;
-    padding: 10px;
+    padding: 10px 0px;
     color: #ffff;
 }
 .nav-container .logo a span{
@@ -193,6 +193,7 @@ nav{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 0px 15px;
 }
 .banner-text{
     width: 100%;
@@ -429,7 +430,7 @@ nav{
   
   @media (max-width: 600px) {
     :root {
-      --marquee-width: 100vw;
+      --marquee-width: 100vw !important;
       --marquee-height: 16vh;
       --marquee-elements-displayed: 3;
     }
@@ -483,7 +484,7 @@ nav{
   }
   @media (max-width: 600px) {
     :root {
-      --marquee-two-width: 100vw;
+      --marquee-two-width: 100vw !important;
       --marquee-two-height: fit-content;
       --marquee-two-elements-displayed: 3;
     }
@@ -606,11 +607,17 @@ nav{
   }
   @media (max-width: 600px) {
     :root {
-      --marquee-three-width: 100vw;
+      --marquee-three-width: 100vw !important;
       --marquee-three-height: 16vh;
       --marquee-three-elements-displayed: 3;
     }
     .marquee-three:before, .marquee-three:after { width: 5rem; }
+    h1.huge-head{
+        font-size: 65px !important;
+    }
+    h1.mini-head{
+        font-size: 25px;
+    }
   }
 /* == || service Section == */
 /* == education Section == */
@@ -748,6 +755,9 @@ nav{
     background-color: #00000000;
     cursor: pointer;
 }
+.attention-video {
+    padding: 20px 0px;
+}
 .attention-video video{
     max-width: 600px;
     width: 100%;
@@ -809,7 +819,7 @@ nav{
   /* Add padding BETWEEN each column */
   .portfolio .row,
   .portfolio .row > .portfolio .column {
-    padding: 8px;
+    padding: 0px !important;
   }
   .portfolio .row .showCol {
     display: block;
@@ -830,7 +840,7 @@ nav{
   .portfolio .column img{
     border-radius: 4px;
     height: 400px;
-    width: 300px;
+    width: 280px;
   }
   .portfolio .column:hover img{
     transform: scale(1.02);
@@ -1003,6 +1013,9 @@ nav{
     height: fit-content;
     padding: 60px 0px;
 }
+.testimonial-container{
+    padding: 0px 15px;
+}
 .testimonial-headline{
     text-align: center;
     z-index: 0;
@@ -1043,7 +1056,7 @@ nav{
 }
 .testimony{
     display: none;
-    height: 300px;
+    height: 360px;
     padding: 20px 0px;
     width: 100%;
     max-width: 450px;
@@ -1312,6 +1325,9 @@ footer{
 /* == RESPONSIVE == */
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 994px) {
+    ::-webkit-scrollbar {
+        width: 4px !important;
+    }
     .container{
         margin: auto;
         min-width: 90%;
