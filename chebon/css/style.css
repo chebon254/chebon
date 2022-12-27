@@ -230,6 +230,7 @@ nav{
     border: 0px;
     background-color: #00acff;
     color: #ffffff;
+    margin: 10px 10px 10px 0px;
 }
 .banner-text .btns button:nth-child(2){
     height: 42px;
@@ -237,7 +238,7 @@ nav{
     border: 1px solid #ffffff;
     background-color: #00000000;
     color: #ffffff;
-    margin: 10px;
+    margin: 10px 10px 0px 0px;
 }
 /* == || Bannner == */
 
