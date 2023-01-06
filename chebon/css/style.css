@@ -840,6 +840,9 @@ nav{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    height: 653px;
+    overflow: hidden;
+    transition: all ease-in-out 200ms !important;
   }
   
   /* Add padding BETWEEN each column */
@@ -850,7 +853,10 @@ nav{
   .portfolio .row .showCol {
     display: block;
   }
-  
+  .portfolio .row.collapsed {
+    height: fit-content;
+    transition: all ease-in-out 400ms !important;
+  }
   
   /* Create three equal columns that floats next to each other */
   .portfolio .column {
@@ -1022,6 +1028,32 @@ nav{
   .portfolio .btn.active {
     background-color: #22b981;
     color: #ffffff;
+  }
+  .show-more{
+    padding: 20px 0px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .show-more button{
+    height: 42px;
+    width: 140px;
+    cursor: pointer;
+    background-color: #22b981;
+    border: 0;
+    border-radius: 21px;
+    font-size: 14px;
+    color: #ffffff;
+    -webkit-box-shadow: 0 10px 21px rgb(173 178 197 / 17%);
+    -moz-box-box-shadow: 0 10px 21px rgb(173 178 197 / 17%);
+    box-shadow: 0 10px 21px rgb(173 178 197 / 17%);
+    transition: all ease-in-out 200ms;
+    margin: auto !important;
+  }
+  .show-more button:hover{
+    transform: scale(1.05);
   }
 /* == PORTFOLIO == */
 /* == testimonial Section == */

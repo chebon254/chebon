@@ -118,6 +118,19 @@ for(let i=0; i<marqueeThreeElementsDisplayed; i++) {
 }
 /* == || Maquee Three == */
 
+
+/* == Show More Portfolio === */
+$('.accordion-drop-button').click(function(e){
+  let box = $(this).closest('.portfolio-container ').find('.row');
+  if ( box.hasClass('collapsed') ){
+    box.removeClass('collapsed');
+  }else{
+    box.addClass('collapsed');
+  }
+});
+/* == || Show More Portfolio === */
+
+
 /* == Testimonial == */
 var slideIndex = 1;
         showSlides(slideIndex);
