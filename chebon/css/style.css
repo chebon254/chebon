@@ -938,6 +938,10 @@ nav{
     color: #0f0f0f;
     font-size: 12px;
   }
+  .portfolio .column .title span i{
+    margin: 0px 1px;
+    color: #011c27;
+  }
   .portfolio .column .title h2{
     color: #0f0f0f;
   }
