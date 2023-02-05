@@ -14,6 +14,23 @@ const menu = document.querySelector(".links");
 window.onscroll = ()=>{
     this.scrollY > 20 ? header.classList.add("sticky") : header.classList.remove("sticky");
 }
+/* == ANIMATION CSS == */
+function reveal() {
+  var reveals = document.querySelectorAll(".reveal");
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 1;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("showreveal");
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal);
+/* == ANIMATION CSS == */
 
 // Onclick For Menu Bar
 menuBtn.onclick = ()=>{

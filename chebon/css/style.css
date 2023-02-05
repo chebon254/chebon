@@ -43,6 +43,35 @@ html {
 ::-webkit-scrollbar-thumb {
     background: #00acff;
 }
+/* Animation CSS */
+@keyframes bottomReveal {
+    from{
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.reveal-fixed{
+    transition: 2s all ease;
+    animation: bottomReveal 2000ms forwards;
+}
+.reveal-fixed-delay{
+    transition: 2s all ease;
+    animation: bottomReveal 1200ms forwards;
+}
+.reveal{
+    position: relative;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+.reveal.showreveal{
+    transform: translateY(0);
+    opacity: 1;
+}
 /* == || SCROLL BAR == */
 .container{
     margin: auto;
@@ -286,7 +315,6 @@ nav{
 }
 .skill-card{
     width: 280px;
-    text-align: center;
     margin: 20px 0px;
 }
 .skill-card .image{
@@ -300,6 +328,46 @@ nav{
 .skill-card .image img{
     margin: -20px auto 0px !important;
 }
+.skills-listing{
+    height: fit-content;
+    min-height: 420px;
+    width: 100%;
+    padding: 10px 0px;
+}
+.skills-listing .skill-name{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 0px;
+}
+.skill-name span{
+    font-size: 14px !important;
+    font-weight: 300 !important;
+    letter-spacing: 0.5px;
+    font-family: GTWalsheimPro-Regular;
+    color: #787878;
+}
+.skills-listing.one .skill-name span:nth-child(1) i{
+    color: #009dff !important;
+}
+.skills-listing.one .skill-name span:nth-child(2){
+    color: #011c27 !important;
+}
+.skills-listing.two .skill-name span:nth-child(1) i{
+    color: #ed154b;
+}
+.skills-listing.two .skill-name span:nth-child(2){
+    color: #011c27;
+}
+.skills-listing.three .skill-name span:nth-child(1) i{
+    color: #22b981;
+}
+.skills-listing.three .skill-name span:nth-child(2){
+    color: #011c27;
+}
+.skill-name span i{
+    margin: 0px 4px 0px 0px;
+}
 .card-image-one{
     background-color: #011c27;
 }
@@ -310,7 +378,9 @@ nav{
     background-color: #22b981;
 }
 
-.skill-card span{
+.skill-card span.title{
+    width: 280px !important;
+    text-align: left;
     font-size: 22px;
     font-family: GTWalsheimPro-Bold;
 }
@@ -1381,6 +1451,7 @@ footer{
 /* == RESPONSIVE == */
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 994px) {
+    
     ::-webkit-scrollbar {
         width: 4px !important;
     }
