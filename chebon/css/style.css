@@ -314,75 +314,47 @@ nav{
     padding: 60px 0px;
 }
 .skill-card{
-    width: 280px;
-    margin: 20px 0px;
-}
-.skill-card .image{
-    height: 140px;
-    width: 260px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.skill-card .image img{
-    margin: -20px auto 0px !important;
-}
-.skills-listing{
-    height: fit-content;
-    min-height: 420px;
+    min-height: 240px;
     width: 100%;
-    padding: 10px 0px;
-}
-.skills-listing .skill-name{
+    max-width: 340px;
+    min-width: 280px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 2px;
+    padding: 80px 20px 10px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
-    padding: 10px 0px;
+    margin: 10px;
 }
-.skill-name span{
-    font-size: 14px !important;
-    font-weight: 300 !important;
-    letter-spacing: 0.5px;
-    font-family: GTWalsheimPro-Regular;
-    color: #787878;
+.skill-card .left{
+    padding: 10px;
+    font-size: 30px !important;
 }
-.skills-listing.one .skill-name span:nth-child(1) i{
-    color: #009dff !important;
-}
-.skills-listing.one .skill-name span:nth-child(2){
-    color: #011c27 !important;
-}
-.skills-listing.two .skill-name span:nth-child(1) i{
-    color: #ed154b;
-}
-.skills-listing.two .skill-name span:nth-child(2){
-    color: #011c27;
-}
-.skills-listing.three .skill-name span:nth-child(1) i{
+.skill-card .left i.fa-lightbulb,
+.skill-card .right span.uiux
+{
     color: #22b981;
 }
-.skills-listing.three .skill-name span:nth-child(2){
-    color: #011c27;
+.skill-card .left i.fa-layer-group,
+.skill-card .right span.design
+{
+    color: #009dff;
 }
-.skill-name span i{
-    margin: 0px 4px 0px 0px;
+.skill-card .left i.fa-computer,
+.skill-card .right span.dev
+{
+    color: #ed154b;
 }
-.card-image-one{
-    background-color: #011c27;
+.skill-card .right{
+    padding: 10px;
 }
-.card-image-two{
-    background-color: #ed154b;
-}
-.card-image-three{
-    background-color: #22b981;
-}
-
-.skill-card span.title{
-    width: 280px !important;
-    text-align: left;
+.skill-card .right h2{
     font-size: 22px;
-    font-family: GTWalsheimPro-Bold;
+    margin: 0px 0px 10px;
+}
+.skill-card .right span{
+    margin: 5px 0px 0px;
+    font-family: GTWalsheimPro-Regular !important;
 }
 /* == || Skill Section == */
 /* == service Section == */
