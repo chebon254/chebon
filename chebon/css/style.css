@@ -724,7 +724,7 @@ nav{
 }
 .education-content{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding: 60px 0px;
