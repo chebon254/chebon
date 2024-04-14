@@ -331,8 +331,18 @@ nav{
     color: #ffffff;
     margin: 0px 0px 20px;
 }
+
 .banner-text .btns{
     padding: 20px 0px 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
 }
 .banner-text .btns button:nth-child(1){
     height: 42px;
@@ -348,7 +358,26 @@ nav{
     border: 1px solid #ffffff;
     background-color: #00000000;
     color: #ffffff;
-    margin: 10px 10px 0px 0px;
+    margin: 10px 10px 10px 0px;
+}
+#gitbutton{
+    background-color: #ff000000; 
+    color: #ffffff; 
+    font-size: 30px; 
+    height: 42px; 
+    display: -webkit-box; 
+    display: -ms-flexbox; 
+    display: flex; 
+    -webkit-box-align: center; 
+    -ms-flex-align: center; 
+    align-items: center; 
+    -webkit-box-pack: center; 
+    -ms-flex-pack: center; 
+    justify-content: center; 
+    cursor: pointer;
+    outline: none;
+    border: 0px;
+    margin: 10px;
 }
 /* == || Bannner == */
 
