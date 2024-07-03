@@ -619,9 +619,9 @@ nav{
     padding: 10px;
   }
   img.skill-icon-image{
-    width: 140px !important;
+    width: 120px !important;
     outline: none;
-    border: 0px;
+    border: 0px !important;
   }
   .marquee-content li img {
     width: 100%;
