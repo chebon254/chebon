@@ -599,6 +599,8 @@ nav{
     max-height: 100%;
     font-size: calc(var(--marquee-height)*3/4); /* 5rem; */
     white-space: nowrap;
+    border: 0px;
+    outline: none;
   }
   .marquee-content li.title i,
   .marquee-content li.title span{
@@ -616,7 +618,11 @@ nav{
     font-size: 16px !important;
     padding: 10px;
   }
-  
+  img.skill-icon-image{
+    width: 140px !important;
+    outline: none;
+    border: 0px;
+  }
   .marquee-content li img {
     width: 100%;
     /* height: 100%; */
