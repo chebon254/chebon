@@ -835,6 +835,9 @@ nav{
   .marquee-image.portfolio{
     background-image: url('img/skills/portfolio\ website.png');
   }
+  .marquee-image.api{
+    background-image: url('img/API.png');
+  }
   .marquee-image.web-design{
     background-image: url('img/skills/Web\ Design.png');
   }
