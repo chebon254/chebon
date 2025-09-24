@@ -1,7 +1,4 @@
 User-agent: *
-Disallow: /chebon/css/
-Disallow: /chebon/js/
-Disallow: /chebon/fonts/
 Allow: /
 
 Sitemap: https://chebonkelvin.com/sitemap.xml
