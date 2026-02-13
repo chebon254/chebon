@@ -1,0 +1,41 @@
+# robots.txt for Chebon Kelvin - Full Stack Developer Portfolio
+# Last updated: 2026-02-13
+
+# Allow all search engines to crawl entire site
+User-agent: *
+Allow: /
+Allow: /css/
+Allow: /js/
+Allow: /favicon/
+
+# Allow Googlebot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Allow Bingbot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Allow AI Crawlers (ChatGPT, Claude, etc.)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Perplexity
+Allow: /
+
+# Sitemap location
+Sitemap: https://chebonkelvin.com/sitemap.xml
+
+# Crawl delay to be polite to servers
+Crawl-delay: 1
