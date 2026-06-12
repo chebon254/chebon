@@ -1,28 +1,28 @@
-# robots.txt for Chebon Kelvin - Full Stack Developer Portfolio
-# Last updated: 2026-02-13
+# robots.txt for Chebon Kelvin - Full Stack Engineer Portfolio
+# Last updated: 2026-06-12
 
 # Allow all search engines to crawl entire site
 User-agent: *
 Allow: /
-Allow: /css/
-Allow: /js/
-Allow: /favicon/
 
-# Allow Googlebot
+# Search engine crawlers
 User-agent: Googlebot
 Allow: /
-Crawl-delay: 0
 
-# Allow Bingbot
 User-agent: Bingbot
 Allow: /
-Crawl-delay: 1
 
-# Allow AI Crawlers (ChatGPT, Claude, etc.)
+# AI / LLM crawlers — explicitly welcome
 User-agent: GPTBot
 Allow: /
 
 User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
 Allow: /
 
 User-agent: Claude-Web
@@ -31,11 +31,26 @@ Allow: /
 User-agent: anthropic-ai
 Allow: /
 
-User-agent: Perplexity
+User-agent: PerplexityBot
 Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# Machine-readable site summary for AI assistants
+# LLM context file: https://chebonkelvin.com/llms.txt
 
 # Sitemap location
 Sitemap: https://chebonkelvin.com/sitemap.xml
-
-# Crawl delay to be polite to servers
-Crawl-delay: 1

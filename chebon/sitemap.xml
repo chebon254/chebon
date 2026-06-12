@@ -5,60 +5,60 @@
   <!-- Homepage / Main Portfolio -->
   <url>
     <loc>https://chebonkelvin.com/</loc>
-    <lastmod>2026-02-13</lastmod>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://chebonkelvin.com/css/img/profile pic.png</image:loc>
-      <image:title>Chebon Kelvin - Full Stack Developer</image:title>
-      <image:caption>Professional Full Stack Developer specializing in Next.js, Vue.js, and Python</image:caption>
+      <image:title>Chebon Kelvin - Full Stack Engineer</image:title>
+      <image:caption>Professional Full Stack Engineer specializing in Next.js, Vue.js, and Python — serving clients worldwide</image:caption>
     </image:image>
   </url>
 
-  <!-- Skills Section -->
+  <!-- Works / Portfolio Section -->
   <url>
-    <loc>https://chebonkelvin.com/#skills-sect</loc>
-    <lastmod>2026-02-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <!-- Resume/Education Section -->
-  <url>
-    <loc>https://chebonkelvin.com/#education-sect</loc>
-    <lastmod>2026-02-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Portfolio/Projects Section -->
-  <url>
-    <loc>https://chebonkelvin.com/#portfolio-sect</loc>
-    <lastmod>2026-02-13</lastmod>
+    <loc>https://chebonkelvin.com/#works</loc>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
+  <!-- Expertise Section -->
+  <url>
+    <loc>https://chebonkelvin.com/#expertise</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Resume Section -->
+  <url>
+    <loc>https://chebonkelvin.com/#resume</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Certifications Section -->
+  <url>
+    <loc>https://chebonkelvin.com/#certifications</loc>
+    <lastmod>2026-06-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Testimonials Section -->
   <url>
-    <loc>https://chebonkelvin.com/#testimonial-sect</loc>
-    <lastmod>2026-02-13</lastmod>
+    <loc>https://chebonkelvin.com/#testimonials</loc>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <!-- Contact Section -->
   <url>
-    <loc>https://chebonkelvin.com/#contact-sect</loc>
-    <lastmod>2026-02-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <!-- Services Section -->
-  <url>
-    <loc>https://chebonkelvin.com/#service-sect</loc>
-    <lastmod>2026-02-13</lastmod>
+    <loc>https://chebonkelvin.com/#contact</loc>
+    <lastmod>2026-06-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
