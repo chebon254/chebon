@@ -8,8 +8,22 @@
     ],
     "rewrites": [
       {
-        "source": "!/@(sitemap.xml|robots.txt)",
+        "source": "!/@(sitemap.xml|robots.txt|llms.txt)",
         "destination": "/index.html"
+      }
+    ],
+    "headers": [
+      {
+        "source": "**/*.@(png|jpg|jpeg|gif|webp|svg|ico|mp4)",
+        "headers": [{ "key": "Cache-Control", "value": "public, max-age=2592000" }]
+      },
+      {
+        "source": "**/*.@(css|js)",
+        "headers": [{ "key": "Cache-Control", "value": "public, max-age=3600" }]
+      },
+      {
+        "source": "**/*.pdf",
+        "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400" }]
       }
     ]
   }

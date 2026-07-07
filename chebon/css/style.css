@@ -804,16 +804,16 @@ nav{
     background-image: url('img/skills/meme.png');
   }
   .marquee-image.promotional{
-    background-image: url('img/skills/promotional\ videos.png');
+    background-image: url('img/skills/promotional_videos.png');
   }
   .marquee-image.back-remove{
-    background-image: url('img/skills/image\ edits.png');
+    background-image: url('img/skills/image_edits.png');
   }
   .marquee-image.social-ads{
-    background-image: url('img/skills/social\ posts.png');
+    background-image: url('img/skills/social_posts.png');
   }
   .marquee-image.video-edit{
-    background-image: url('img/skills/video\ editing.png');
+    background-image: url('img/skills/video_editing.png');
   }
   .marquee-image.thumbnail{
     background-image: url('img/skills/thumbnail.png');
@@ -825,25 +825,25 @@ nav{
     background-image: url('img/skills/sdlc.png');
   }
   .marquee-image.mobile-dvp{
-    background-image: url('img/skills/Mobile\ App.png');
+    background-image: url('img/skills/Mobile_App.png');
   }
   .marquee-image.coding{
     background-image: url('img/skills/tutor.png');
   }
   .marquee-image.ecommerse-web{
-    background-image: url('img/skills/ecommerce\ websites.png');
+    background-image: url('img/skills/ecommerce_websites.png');
   }
   .marquee-image.biz{
-    background-image: url('img/skills/bussiness\ website.png');
+    background-image: url('img/skills/bussiness_website.png');
   }
   .marquee-image.portfolio{
-    background-image: url('img/skills/portfolio\ website.png');
+    background-image: url('img/skills/portfolio_website.png');
   }
   .marquee-image.api{
     background-image: url('img/API.png');
   }
   .marquee-image.web-design{
-    background-image: url('img/skills/Web\ Design.png');
+    background-image: url('img/skills/Web_Design.png');
   }
   .marquee-card span{
     font-size: 16px;
